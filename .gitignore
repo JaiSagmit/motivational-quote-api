@@ -1,0 +1,47 @@
+# Ignore PyCharm project settings
+.idea/
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment
+venv/
+env/
+*.env
+*.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore Django secrets
+.env
+*.sqlite3
+db.sqlite3
+
+# Ignore logs
+logs/
+*.log
+*.out
+
+# Ignore media and static files (if generated dynamically)
+media/
+staticfiles/
+static/
+
+# Ignore migrations (optional, keep if tracking migrations)
+**/migrations/**  # Uncomment this if you don’t want to track migrations
+!**/migrations/__init__.py  # Keep the init file to maintain Django structure
+
+# Ignore test coverage reports
+htmlcov/
+.coverage
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Ignore IDE and OS files
+.vscode/
+.DS_Store
+Thumbs.db
